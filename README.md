@@ -53,6 +53,8 @@ UI được thiết kế theo phong cách **glassmorphism**, đơn giản – tr
 - Tự động xử lý và chuẩn hóa dữ liệu đầu vào  
 - Kết quả được hiển thị ngay trong cùng trang  
 
+![](/static/ui.png)
+
 ---
 
 ## 🚀 Hướng dẫn cài đặt

@@ -1,10 +1,7 @@
 # 📘 DiabCost Predictor  
 ### **Hệ thống dự báo chi phí điều trị đái tháo đường sử dụng Machine Learning**
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]()  
-[![Flask](https://img.shields.io/badge/Backend-Flask-blue)]()  
-[![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)]()  
-[![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38B2AC)]()  
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)]() [![Flask](https://img.shields.io/badge/Backend-Flask-blue)]()  [![XGBoost](https://img.shields.io/badge/Model-XGBoost-green)]()  [![TailwindCSS](https://img.shields.io/badge/UI-TailwindCSS-38B2AC)]()  
 
 ---
 

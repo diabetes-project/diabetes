@@ -70,3 +70,7 @@ input:focus {
         grid-template-columns: 1fr;
     }
 }
+
+body.no-scroll {
+    overflow: hidden;
+}

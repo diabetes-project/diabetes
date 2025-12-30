@@ -41,5 +41,8 @@ function showPrediction(cost) {
     }, 5000);
 }
 
+document.body.classList.add("no-scroll");   // khi mở modal
+document.body.classList.remove("no-scroll"); // khi đóng modal
+
 // Example usage (would be replaced with actual prediction from backend)
 // showPrediction(4500000);

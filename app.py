@@ -27,7 +27,8 @@ def predict():
 
         # Chuyển dataframe
         df = pd.DataFrame([form])
-
+        df.drop('Hạng bệnh viện điều trị', axis=1, inplace=True)
+        
         # Dự đoán
         pred = pipeline.predict(df)
 

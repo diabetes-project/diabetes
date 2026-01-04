@@ -191,6 +191,19 @@
                 <option value="≥3">3+</option>
               </select>
             </div>
+            
+            <div>
+              <label class="block text-sm font-medium text-gray-700">Hạng bệnh viện điều trị</label>
+              <input name="Hạng bệnh viện điều trị" list="hang-list" placeholder="Ví dụ: Hạng đặc biệt" class="mt-1 w-full px-3 py-2 border rounded-lg">
+              <datalist id="hang-list">
+                <option value="Hạng đặc biệt"></option>
+                <option value="Hạng I"></option>
+                <option value="Hạng II"></option>
+                <option value="Hạng III"></option>
+                <option value="Hạng IV"></option>
+                <option value="Không phân hạng"></option>
+              </datalist>
+            </div>
 
             <div>
               <label class="block text-sm font-medium text-gray-700">Tuyến bệnh viện điều trị</label>
@@ -230,8 +243,8 @@
             </div>  
 
             <!-- Row 9 -->
-            <div class="md:col-span-2">
-            <!-- <div> -->
+            <!-- <div class="md:col-span-2"> -->
+            <div>
               <label class="block text-sm font-medium text-gray-700">Số ngày điều trị</label>
               <input name="Số ngày điều trị" type="number" placeholder="Nhập số ngày" class="mt-1 w-full px-3 py-2 border rounded-lg">
             </div>

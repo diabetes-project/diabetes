@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, Response
 import pandas as pd
 import joblib
 import numpy as np
@@ -28,7 +28,7 @@ def predict():
         # Chuyển dataframe
         df = pd.DataFrame([form])
         df.drop('Hạng bệnh viện điều trị', axis=1, inplace=True)
-        
+
         # Dự đoán
         pred = pipeline.predict(df)
 
@@ -43,6 +43,9 @@ def predict():
     except Exception as e:
         return {"error": str(e)}
 
+@app.route("/health", methods=["GET", "HEAD"])
+def health():
+    return Response(status=200)
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=1003)
